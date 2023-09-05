@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Silicon Valley Competition Project</title>
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-database.js"></script>
+      <script src="sketch.js"></script>
+
+      <!--JS Files-->
+      <script src="jsFiles/Form.js"></script>
+      <script src="jsFiles/game.js"></script>
+      <script src="jsFiles/player.js"></script>
+
+      <!--CSS Files-->
+      <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+
+      <!--SDK-->
+      <script>
+        const firebaseConfig = {
+        apiKey: "AIzaSyAvXILgowkIpxxAJZy4BHkKzV8hZJlT_MI",
+        authDomain: "capstone4-e9ad2.firebaseapp.com",
+        databaseURL: "https://capstone4-e9ad2-default-rtdb.firebaseio.com",
+        projectId: "capstone4-e9ad2",
+        storageBucket: "capstone4-e9ad2.appspot.com",
+        messagingSenderId: "972652655202",
+        appId: "1:972652655202:web:6a17c9bdce0f507b5b173b"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    </body>
+  </html>
